@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(ROS2_Gazebo)
+project(ros2_gazebo)
 
 # clangd support
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)

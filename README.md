@@ -1,6 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ---
-## ROS2_Gazebo_TurtleBot3
+## ros2_gazebo_TurtleBot3
 
 ## Overview:
  - This repository consists of Gazebo turtlebot 3 simulation.
@@ -41,7 +41,7 @@
  ```
  - Build the package
  ```
- colcon build --packages-select ROS2_Gazebo
+ colcon build --packages-select ros2_gazebo
  ```
 
  - open new terminal
@@ -59,13 +59,13 @@
  ```
  - run launch file & record bag file
  ```
- ros2 launch ROS2_Gazebo launch.py record_flag:=True
+ ros2 launch ros2_gazebo launch.py record_flag:=True
  ```
 
 ## Command to run static code analysis:
  - Navigate to src folder in package
  ```
- cd ros2_ws/src/ROS2_Gazebo/src
+ cd ros2_ws/src/ros2_gazebo/src
  ```
  - run the following command from src folder in package
  ```
@@ -75,7 +75,7 @@
 ## Command to check Google Style:
  - Navigate to src folder in package
  ```
- cd ros2_ws/src/ROS2_Gazebo/src
+ cd ros2_ws/src/ros2_gazebo/src
  ```
  - run the following command from src folder in package
  ```

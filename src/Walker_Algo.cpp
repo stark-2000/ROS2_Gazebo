@@ -44,12 +44,12 @@ using LIDAR = sensor_msgs::msg::LaserScan;
 using TWIST = geometry_msgs::msg::Twist;
 
 /**
- * @brief Obstacle Avoidance class, that receives laser data and steers the turtle bot
+ * @brief Class1: Collision Avoidance class - receives laser data & steers the turtle bot
  *
  */
 class CollisionDet : public rclcpp::Node {
  public:
-  CollisionDet() : Node("ROS2_Gazebo") {
+  CollisionDet() : Node("ros2_gazebo") {
     // Initialize the publisher and subscriber
     auto callback = std::bind(&CollisionDet::timer_callback_1, this, _1);
     lidar_data = this->create_subscription<LIDAR>("scan", 10, callback);

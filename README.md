@@ -57,9 +57,13 @@
  ```
  . install/setup.bash
  ```
+ - run launch file only
+ ```
+ ros2 launch ros2_gazebo launch.py
+ ```
  - run launch file & record bag file
  ```
- ros2 launch ros2_gazebo launch.py record_flag:=True
+ ros2 launch ros2_gazebo launch.py record_flag:=False
  ```
 
 ## Command to run static code analysis:
